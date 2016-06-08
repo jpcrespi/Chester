@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                   Work in progress: Simplify building GraphQL queries with Chester.
                    DESC
 
-  s.homepage     = "https://github.com/JanGorman/Chester"
+  s.homepage     = "https://github.com/jpcrespi/Chester"
   s.license      = "MIT"
 
   s.author             = { "Jan Gorman" => "gorman.jan@gmail.com" }
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/JanGorman/Chester.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/jpcrespi/Chester.git", :branch => "master" }
 
   s.source_files  = "Classes", "Chester/*.swift"
 
